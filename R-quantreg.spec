@@ -22,6 +22,8 @@ BuildRequires:    R-tripack R-akima R-MASS R-survival R-rgl R-logspline R-nor1mi
 %else
 BuildRequires:    R-tripack R-akima R-MASS R-survival R-rgl R-logspline R-nor1mix R-MatrixModels R-Matrix R-Formula R-zoo 
 %endif
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Quantile regression and related methods.
