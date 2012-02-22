@@ -15,8 +15,8 @@ Requires:         R-logspline R-nor1mix R-MatrixModels R-Matrix R-Formula
 %if %{without bootstrap}
 Requires:         R-zoo
 %endif
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats
-BuildRequires:    R-SparseM R-tripack R-akima R-MASS R-survival R-rgl
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-stats R-SparseM R-tripack R-akima R-MASS R-survival R-rgl
 BuildRequires:    R-logspline R-nor1mix R-MatrixModels R-Matrix R-Formula
 %if %{without bootstrap}
 BuildRequires:    R-zoo
