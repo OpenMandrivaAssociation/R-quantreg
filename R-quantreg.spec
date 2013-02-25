@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          4.76
-Release:          2
+Version:          4.94
+Release:          1
 Summary:          Quantile Regression
 Group:            Sciences/Mathematics
-License:          file LICENSE
+License:          GPLv2+
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/quantreg_4.94.tar.gz
 Requires:         R-stats R-SparseM R-tripack R-akima R-MASS R-survival R-rgl
 Requires:         R-logspline R-nor1mix R-MatrixModels R-Matrix R-Formula
 %if %{without bootstrap}
@@ -47,14 +47,14 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %dir %{rlibdir}/%{packname}
 %doc %{rlibdir}/%{packname}/doc
 %doc %{rlibdir}/%{packname}/html
-%doc %{rlibdir}/%{packname}/Changelog
+%doc %{rlibdir}/%{packname}/ChangeLog
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %doc %{rlibdir}/%{packname}/FAQ
 %{rlibdir}/%{packname}/INDEX
-%{rlibdir}/%{packname}/LICENSE
 %{rlibdir}/%{packname}/NAMESPACE
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
+%{rlibdir}/%{packname}/TODO
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
