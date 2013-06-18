@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          4.94
-Release:          1
+Release:          2
 Summary:          Quantile Regression
 Group:            Sciences/Mathematics
 License:          GPLv2+
