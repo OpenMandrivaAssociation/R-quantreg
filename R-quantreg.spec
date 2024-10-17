@@ -8,7 +8,7 @@ Release:          2
 Summary:          Quantile Regression
 Group:            Sciences/Mathematics
 License:          GPLv2+
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/quantreg_4.94.tar.gz
 Requires:         R-stats R-SparseM R-tripack R-akima R-MASS R-survival R-rgl
 Requires:         R-logspline R-nor1mix R-MatrixModels R-Matrix R-Formula
